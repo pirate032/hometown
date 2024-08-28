@@ -11,8 +11,87 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     width: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.heading {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 350px;
+    color: #FFFFFF;
+    margin: 0px auto;
+}
+.main-title {
+    background-color: #1D3557;
+    width: 250px;
+    height: 40px;
+    margin: 120px auto 0 auto;
+    border-radius: 10px;
+}
+.sub-title {
+    background-color: #457B9D;
+    width: 410px;
+    margin: 11px auto 120px auto;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 30px;
+}
+.activities {
+    background-color: #F1FAEE;
+    width: 720px;
+    height: 380px;
+    margin: 0 auto;
+}
+.activities-title {
+    margin: 40px auto;
+}
+.img1, .img2, .img3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.thumbs {
+    display: flex;
+    justify-content: space-around;
+}
+.guide {
+    display: flex;
+    background-color: #A8DADC;
+    width: 400px;
+    margin: 50px auto;
+    border-bottom: 8px solid #1D3557;
+    border-radius: 10px;
+}
+.headshot {
+    width: 180px;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.guide-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.name {
+    font-size: 16px;
+   
+}
+.about {
+
 }
